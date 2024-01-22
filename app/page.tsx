@@ -1,5 +1,6 @@
 import Advantage from "@/components/advantages/clearlink-advantage";
 import Companies from "@/components/companies/companies";
+import Communication from "@/components/frequently-asked/communication";
 import FrequentlyAsked from "@/components/frequently-asked/frequently-asked";
 import Reviews from "@/components/reviews/reviews";
 import TopComponent from "@/components/top/top-component";
@@ -13,6 +14,7 @@ export default function Home() {
         <Advantage />
         <Reviews />
         <FrequentlyAsked />
+        <Communication />
       </div>
     </main>
   );

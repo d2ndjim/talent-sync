@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -10,7 +9,6 @@ import { cn } from "@/lib/utils";
 import { useAccordion } from "@/hooks/use-accordion";
 
 const FrequentlyAsked = () => {
-  const [isOpen, setIsOpen] = useState(false);
   const {
     item1Open,
     item2Open,
