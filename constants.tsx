@@ -61,21 +61,33 @@ export const cardIcons = [
 
 export const cardImages = [
   {
-    icon: () => <Card1Icon />,
+    icon: () => (
+      <Card1Icon className="w-[130px] h-[130px] big:w-[160px] big:h-[160px]" />
+    ),
   },
   {
-    icon: () => <Card2Icon />,
+    icon: () => (
+      <Card2Icon className="w-[130px] h-[130px] big:w-[160px] big:h-[160px]" />
+    ),
   },
   {
-    icon: () => <Card3Icon />,
+    icon: () => (
+      <Card3Icon className="w-[130px] h-[130px] big:w-[160px] big:h-[160px]" />
+    ),
   },
   {
-    icon: () => <Card4Icon />,
+    icon: () => (
+      <Card4Icon className="w-[130px] h-[130px] big:w-[160px] big:h-[160px]" />
+    ),
   },
   {
-    icon: () => <Card5Icon />,
+    icon: () => (
+      <Card5Icon className="w-[130px] h-[130px] big:w-[160px] big:h-[160px]" />
+    ),
   },
   {
-    icon: () => <Card6Icon />,
+    icon: () => (
+      <Card6Icon className="w-[130px] h-[130px] big:w-[160px] big:h-[160px]" />
+    ),
   },
 ];

@@ -5,7 +5,7 @@ import bgPattern from "@/public/assets/images/bg-pattern.png";
 
 const TopComponent = ({}) => {
   return (
-    <div className="relative px-[128px] pt-10 pb-24">
+    <div className="relative big:px-[128px] px-[90px] pt-10 pb-16 big:pb-24">
       <div className="absolute inset-0">
         <Image
           src={bgPattern}

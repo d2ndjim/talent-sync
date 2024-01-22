@@ -5,22 +5,21 @@ import { Card, CardContent } from "@/components/ui/card";
 import AssistantIcon from "@/public/assets/icons/assistant.svg";
 import AvatarGroupIcon from "@/public/assets/icons/avatar-group.svg";
 import ReviewIcon from "@/public/assets/icons/review-stars.svg";
-import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="flex justify-center">
-      <div className="flex justify-between items-center px-[15px] w-[1408px]">
+    <div className="big:flex big:justify-center">
+      <div className="flex justify-between items-center big:w-[1408px]">
         <div className="h-[472px]">
-          <h1 className="text-[#1D2939] h-[144px] font-semibold leading-[72px] tracking-[-1.28px] text-[56px] 2xl:text-[64px] mb-6">
+          <h1 className="text-[#1D2939] h-[144px] font-semibold big:leading-[72px] tracking-[-1.28px] text-[50px] big:text-[64px] mb-6">
             Uniting the world, <br />
             one video call at a time
           </h1>
-          <p className="2xl:text-2xl text-[22px] leading-[32px] text-[#667085] w-[600px] 2xl:w-[662px] h-[96px]">
+          <p className="big:text-2xl text-[22px] w-[500px] big:leading-[32px] text-[#667085] big:w-[662px] h-[96px]">
             Experience the future of communication with ClearLink – where
             crystal-clear video conferencing meets unparalleled simplicity.
           </p>
-          <div className="flex gap-x-5 items-center my-12">
+          <div className="flex gap-x-5 items-center my-10 big:my-12">
             <Button className="w-[221px] h-[60px] hover:bg-blue-400 bg-[#175CD3] text-[18px] leading-[28px] font-semibold px-[28px] py-4 rounded-[100px] box-shadow-0px-1px-2px-0px-rgba-16-24-40-0-05">
               Start your free trial
             </Button>
@@ -42,13 +41,13 @@ const Intro = () => {
           </div>
         </div>
         <>
-          <Card className="w-[584px] h-[488px]">
+          <Card className="big:w-[584px] big:h-[488px] h-[450px] w-[500px]">
             <CardContent>
-              <div className="grid grid-cols-3 gap-10 place-items-center mb-8">
+              <div className="grid grid-cols-3 gap-8 big:gap-10 big:mb-7 mb-10">
                 {cardImages.map((image, index) => (
-                  <div key={index} className="rounded-xl">
+                  <Fragment key={index}>
                     {image.icon()}
-                  </div>
+                  </Fragment>
                   // <Image key={index} src={image} alt="card-image" priority />
                 ))}
               </div>

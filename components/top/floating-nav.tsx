@@ -4,15 +4,15 @@ import { Button } from "../ui/button";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-8 py-4 border border-[#D0D5DD] rounded-[100px] flex-grow mb-40 bg-[#F2F4F7]">
+    <div className="flex justify-between px-8 py-2 big:py-4 border border-[#D0D5DD] rounded-[100px] flex-grow mb-32 big:mb-40 bg-[#F2F4F7]">
       <div className="flex gap-x-[0.625rem] items-center">
         <LogoIcon />
-        <p className="text-[1.5rem] font-semibold text-[#101828]">ClearLink</p>
+        <p className="big:text-[1.5rem] text-[1.3rem] font-semibold text-[#101828]">ClearLink</p>
       </div>
       <div className="flex gap-x-10">
         {menus.map((menu, index) => (
           <div key={index} className="flex gap-x-[6px] items-center">
-            <p className="text-[#667085] font-semibold text-lg">{menu.label}</p>
+            <p className="text-[#667085] font-semibold text-base big:text-lg">{menu.label}</p>
             {menu.icon()}
           </div>
         ))}
