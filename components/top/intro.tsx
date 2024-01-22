@@ -1,5 +1,6 @@
+import { Fragment } from "react";
 import { cardIcons, cardImages } from "@/constants";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import AssistantIcon from "@/public/assets/icons/assistant.svg";
 import AvatarGroupIcon from "@/public/assets/icons/avatar-group.svg";
@@ -43,9 +44,12 @@ const Intro = () => {
         <>
           <Card className="w-[584px] h-[488px]">
             <CardContent>
-              <div className="grid grid-cols-3 gap-10 place-items-center mb-10">
+              <div className="grid grid-cols-3 gap-10 place-items-center mb-8">
                 {cardImages.map((image, index) => (
-                  <Image key={index} src={image} alt="card-image" priority />
+                  <div key={index} className="rounded-xl">
+                    {image.icon()}
+                  </div>
+                  // <Image key={index} src={image} alt="card-image" priority />
                 ))}
               </div>
               <div className="flex items-center justify-center gap-x-4">

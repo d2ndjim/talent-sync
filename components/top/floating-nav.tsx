@@ -1,6 +1,6 @@
 import LogoIcon from "@/public/assets/icons/clearbit-logo.svg";
 import { menus } from "@/constants";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 const Navbar = () => {
   return (

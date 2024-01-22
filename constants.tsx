@@ -5,7 +5,12 @@ import SmileyIcon from "@/public/assets/icons/face-smile.svg";
 import SettingIcon from "@/public/assets/icons/settings.svg";
 import VideoIcon from "@/public/assets/icons/video-recorder.svg";
 import MessageIcon from "@/public/assets/icons/message-text-circle.svg";
-import cardImage1 from "@/public/assets/images/card-img-1.png";
+import Card1Icon from "@/public/assets/icons/card-img-1.svg";
+import Card2Icon from "@/public/assets/icons/card-img-2.svg";
+import Card3Icon from "@/public/assets/icons/card-img-3.svg";
+import Card4Icon from "@/public/assets/icons/card-img-4.svg";
+import Card5Icon from "@/public/assets/icons/card-img-5.svg";
+import Card6Icon from "@/public/assets/icons/card-img-6.svg";
 import cardImage2 from "@/public/assets/images/card-img-2.png";
 import cardImage3 from "@/public/assets/images/card-img-3.png";
 import cardImage4 from "@/public/assets/images/card-img-4.png";
@@ -55,10 +60,22 @@ export const cardIcons = [
 
 
 export const cardImages = [
-  cardImage1,
-  cardImage2,
-  cardImage3,
-  cardImage4,
-  cardImage5,
-  cardImage6,
+  {
+    icon: () => <Card1Icon />,
+  },
+  {
+    icon: () => <Card2Icon />,
+  },
+  {
+    icon: () => <Card3Icon />,
+  },
+  {
+    icon: () => <Card4Icon />,
+  },
+  {
+    icon: () => <Card5Icon />,
+  },
+  {
+    icon: () => <Card6Icon />,
+  },
 ];

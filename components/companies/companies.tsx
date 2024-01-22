@@ -7,12 +7,12 @@ import MarvelIcon from "@/public/assets/icons/marvel.svg";
 
 const Companies = () => {
   return (
-    <div className="my-24 flex justify-center">
+    <div className="py-24 flex justify-center px-[160px]">
       <div className="px-8">
         <p className="text-[20px] font-medium leading-[30px] text-[#475467] mb-12 text-center">
           Join 1,500+ companies already video conferencing the ClearLink way
         </p>
-        <div className="flex items-center gap-x-[69px]">
+        <div className="flex items-center justify-center gap-x-[57px]">
           <ShopifyIcon />
           <CoinbaseIcon />
           <DropboxIcon />

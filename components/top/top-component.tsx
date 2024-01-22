@@ -3,7 +3,6 @@ import Intro from "./intro";
 import Image from "next/image";
 import bgPattern from "@/public/assets/images/bg-pattern.png";
 
-
 const TopComponent = ({}) => {
   return (
     <div className="relative px-[128px] pt-10 pb-24">
