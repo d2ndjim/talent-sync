@@ -13,18 +13,18 @@ const Reviews = () => {
   return (
     <div className="big:py-24 py-16 big:px-[128px] px-[90px] bg-[#F9FAFB]">
       <div className="big:flex big:justify-center">
-        <div className="big:w-[1408px] big:h-[556px] px-8 flex gap-x-[54px] big:gap-x-[64px]">
+        <div className="big:w-[1408px] big:h-[556px] px-8 flex gap-x-[40px] big:gap-x-[64px]">
           <div>
             <ShopifyIcon className="w-[112.787px] h-[32px] mb-8 big:mb-12" />
             <StarIcon className="big:mb-12 mb-8" />
-            <h3 className="big:text-[44px] text-4xl w-[600px]  text-[#101828] font-medium big:leading-[60px] big:tracking-[-0.88px] big:w-[640px] mb-8 big:mb-12">
+            <h3 className="big:text-[44px] text-3xl w-[450px]  text-[#101828] font-medium big:leading-[60px] big:tracking-[-0.88px] big:w-[640px] mb-12">
               ClearLink has upgraded our remote meetings. High-quality video,
               screen sharing, and <br /> top-notch security make it essential
               for our team.
             </h3>
             <div className="flex gap-x-3">
               <AvatarIcon />
-              <div className="flex flex-col gap-[2px] w-[350px] big:w-[412px]">
+              <div className="flex flex-col gap-[2px] w-[330px] big:w-[412px]">
                 <p className="text-[#101828] big:text-[20px] font-semibold big:leading-[30px]">
                   Sarah Thompson
                 </p>
@@ -38,7 +38,7 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-y-3 w-[600px] big:w-[640px]">
+          <div className="flex flex-col gap-y-3 w-[550px] big:w-[640px]">
             <div className="flex gap-x-4 justify-center">
               <ReviewImage1Icon className="big:mt-[80px] mt-[70px] w-[130px] h-[140px] big:w-[160px] big:h-[160px]" />
               <ReviewImage2Icon className="w-[130px] h-[210px] big:w-[160px] big:h-[240px]" />

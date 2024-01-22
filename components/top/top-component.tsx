@@ -11,7 +11,7 @@ const TopComponent = ({}) => {
           src={bgPattern}
           alt="Background Pattern"
           layout="fill"
-          objectFit="cover"
+          // objectFit="cover"
         />
       </div>
       <div className="relative z-10">
