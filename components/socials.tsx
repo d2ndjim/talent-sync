@@ -15,10 +15,17 @@ const Socials = () => {
           </p>
           <div className="flex gap-x-6">
             <LinkedInIcon />
-            <TwitterIcon />
+            <a
+              href="https://twitter.com/d2ndjim_/status/1749553447492362475"
+              target="_blank"
+            >
+              <TwitterIcon />
+            </a>
             <FacebookIcon />
             <InstagramIcon />
-            <GithubIcon />
+            <a href="https://github.com/d2ndjim/talent-sync" target="_blank">
+              <GithubIcon />
+            </a>
             <YoutubeIcon />
           </div>
         </div>
