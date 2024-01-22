@@ -1,4 +1,4 @@
-import LinkedInIcon from "@/public/assets/icons/linkedin.svg";
+import LinkedInIcon from "@/public/assets/icons/linkedIn.svg";
 import TwitterIcon from "@/public/assets/icons/twitter.svg";
 import FacebookIcon from "@/public/assets/icons/facebook.svg";
 import InstagramIcon from "@/public/assets/icons/instagram.svg";
