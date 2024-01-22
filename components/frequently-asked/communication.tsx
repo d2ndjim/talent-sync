@@ -3,9 +3,9 @@ import CheckIcon from "@/public/assets/icons/check.svg";
 import MockupIcon from "@/public/assets/icons/mockup.svg";
 const Communication = () => {
   return (
-    <div className="pl-[90px] py-16">
+    <div className="pl-[90px] py-16 big:pt-0">
       <div className="big:flex big:justify-center">
-        <div className="big:w-[1408px] big:h-[697px] flex justify-between big:gap-x-60px">
+        <div className="big:w-[1408px] big:h-[697px] flex justify-between big:gap-x-80px">
           <div>
             <h1 className="big:text-[48px] w-[500px] big:w-[579px] mb-8 text-4xl font-semibold big:leading-[60px] big:tracking-[-0.96px]">
               Ready to clear the path to perfect communication?

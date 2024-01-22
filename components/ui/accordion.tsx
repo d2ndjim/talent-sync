@@ -3,6 +3,8 @@
 import * as React from "react"
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
 import { ChevronDown } from "lucide-react"
+import PlusIcon from "@/public/assets/icons/plus-circle.svg"
+import MinusIcon from "@/public/assets/icons/minus-circle.svg"
 
 import { cn } from "@/lib/utils"
 

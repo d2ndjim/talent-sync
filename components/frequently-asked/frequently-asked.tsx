@@ -22,7 +22,7 @@ const FrequentlyAsked = () => {
     onItem5Open,
   } = useAccordion();
   return (
-    <div className="big:py-24 py-16 big:px-[128px] px-[90px]">
+    <div className="big:py-24 big:pb-0 py-16 big:px-[128px] px-[90px]">
       <div className="big:flex big:justify-center">
         <div className="big:w-[1408px] big:h-[720px] flex justify-between">
           <div className="big:w-[547px] w-[400px] big:h-[96px]">
