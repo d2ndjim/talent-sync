@@ -11,7 +11,7 @@ const Socials = () => {
       <div className="big:flex big:justify-center">
         <div className="big:w-[1408px] big:h-[24px] flex gap-x-8 ">
           <p className="text-[#667085] text-sm big:text-base big:w-[1112px] w-[1000px]">
-            © 2023 ClearLink. All rights reserved.
+            © 2024 ClearLink. All rights reserved.
           </p>
           <div className="flex gap-x-6">
             <LinkedInIcon />

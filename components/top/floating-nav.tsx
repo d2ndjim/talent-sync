@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-8 py-1 big:py-4 border border-[#D0D5DD] rounded-[100px] flex-grow mb-28 big:mb-40 bg-[#F2F4F7]">
+    <div className="flex justify-between px-8 py-2 big:py-4 border border-[#D0D5DD] rounded-[100px] flex-grow mb-28 big:mb-40 bg-[#F2F4F7]">
       <div className="flex gap-x-[0.625rem] items-center">
         <LogoIcon className="w-[26px] h-[28px]" />
         <p className="big:text-[1.5rem] text-[1.3rem] font-semibold text-[#101828]">
