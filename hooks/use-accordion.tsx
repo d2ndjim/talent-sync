@@ -1,6 +1,11 @@
 import { create } from "zustand";
 
 interface useAccordion {
+  isItem1Open: boolean;
+  isItem2Open: boolean;
+  isItem3Open: boolean;
+  isItem4Open: boolean;
+  isItem5Open: boolean;
   item1Open: boolean;
   item2Open: boolean;
   item3Open: boolean;
@@ -19,8 +24,14 @@ export const useAccordion = create<useAccordion>((set) => ({
   item3Open: false,
   item4Open: false,
   item5Open: false,
+  isItem1Open: false,
+  isItem2Open: false,
+  isItem3Open: false,
+  isItem4Open: false,
+  isItem5Open: false,
   onItem1Open: () =>
     set((state) => ({
+      isItem1Open: state.item1Open ? false : true,
       item1Open: state.item1Open ? false : true,
       item2Open: state.item1Open && false,
       item3Open: state.item1Open && false,
@@ -29,6 +40,7 @@ export const useAccordion = create<useAccordion>((set) => ({
     })),
   onItem2Open: () =>
     set((state) => ({
+      isItem2Open: state.item2Open ? false : true,
       item1Open: state.item2Open && false,
       item2Open: state.item2Open ? false : true,
       item3Open: state.item2Open && false,
@@ -37,6 +49,7 @@ export const useAccordion = create<useAccordion>((set) => ({
     })),
   onItem3Open: () =>
     set((state) => ({
+      isItem3Open: state.item3Open ? false : true,
       item1Open: state.item3Open && false,
       item2Open: state.item3Open && false,
       item3Open: state.item3Open ? false : true,
@@ -45,6 +58,7 @@ export const useAccordion = create<useAccordion>((set) => ({
     })),
   onItem4Open: () =>
     set((state) => ({
+      isItem4Open: state.item4Open ? false : true,
       item1Open: state.item4Open && false,
       item2Open: state.item4Open && false,
       item3Open: state.item4Open && false,
@@ -53,6 +67,7 @@ export const useAccordion = create<useAccordion>((set) => ({
     })),
   onItem5Open: () =>
     set((state) => ({
+      isItem5Open: state.item5Open ? false : true,
       item1Open: state.item5Open && false,
       item2Open: state.item5Open && false,
       item3Open: state.item5Open && false,

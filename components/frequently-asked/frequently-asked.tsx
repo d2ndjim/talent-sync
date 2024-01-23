@@ -7,9 +7,16 @@ import {
 } from "@/components/ui/accordion";
 import { cn } from "@/lib/utils";
 import { useAccordion } from "@/hooks/use-accordion";
+import { useState } from "react";
 
 const FrequentlyAsked = () => {
+  // const [isOpen, setIsOpen] = useState(false);
   const {
+    isItem1Open,
+    isItem2Open,
+    isItem3Open,
+    isItem4Open,
+    isItem5Open,
     item1Open,
     item2Open,
     item3Open,
@@ -48,7 +55,7 @@ const FrequentlyAsked = () => {
                     " bg-[#F9FAFB] my-2  border border-[#EAECF0] rounded-[16px]",
                 )}
               >
-                <AccordionTrigger onClick={onItem1Open}>
+                <AccordionTrigger onClick={onItem1Open} isOpen={isItem1Open}>
                   How many participants can join a ClearLink video conference?
                 </AccordionTrigger>
                 <AccordionContent>
@@ -67,7 +74,7 @@ const FrequentlyAsked = () => {
                     " bg-[#F9FAFB] my-2 border border-[#EAECF0] rounded-[16px]",
                 )}
               >
-                <AccordionTrigger onClick={onItem2Open}>
+                <AccordionTrigger onClick={onItem2Open} isOpen={isItem2Open}>
                   Can I use ClearLink on multiple devices?
                 </AccordionTrigger>
                 <AccordionContent>
@@ -86,7 +93,7 @@ const FrequentlyAsked = () => {
                     " bg-[#F9FAFB] my-2  border border-[#EAECF0] rounded-[16px]",
                 )}
               >
-                <AccordionTrigger onClick={onItem3Open}>
+                <AccordionTrigger onClick={onItem3Open} isOpen={isItem3Open}>
                   How does ClearLink ensure the security of my video
                   conferences?
                 </AccordionTrigger>
@@ -106,7 +113,7 @@ const FrequentlyAsked = () => {
                     " bg-[#F9FAFB] my-2 border border-[#EAECF0] rounded-[16px]",
                 )}
               >
-                <AccordionTrigger onClick={onItem4Open}>
+                <AccordionTrigger onClick={onItem4Open} isOpen={isItem4Open}>
                   Do I need to download any software to use ClearLink?
                 </AccordionTrigger>
                 <AccordionContent>
@@ -125,7 +132,7 @@ const FrequentlyAsked = () => {
                     " bg-[#F9FAFB] my-2 border border-[#EAECF0] rounded-[16px]",
                 )}
               >
-                <AccordionTrigger onClick={onItem5Open}>
+                <AccordionTrigger onClick={onItem5Open} isOpen={isItem5Open}>
                   What kind of customer support does ClearLink provide?
                 </AccordionTrigger>
                 <AccordionContent>
